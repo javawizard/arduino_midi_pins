@@ -1,13 +1,11 @@
 #include "MIDIUSB.h"
 
-// ADJUST THIS AS NEEDED: board number. use:
-//   0 for board A
-//   1 for board B
-//   2 for board C
-//   3 for board D
-#define BOARD_NUMBER 0
-
-#define MIDI_CHANNEL_NUMBER (BOARD_NUMBER + 10)
+// ADJUST THIS AS NEEDED: board number. for javawizard's organ console, use:
+//   10 for board A
+//   11 for board B
+//   12 for board C
+//   13 for board D
+#define MIDI_CHANNEL_NUMBER 10
 
 typedef struct {
   bool lastState;
