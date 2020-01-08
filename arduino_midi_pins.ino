@@ -1,10 +1,9 @@
 #include "MIDIUSB.h"
 
 // ADJUST THIS AS NEEDED: board number. for javawizard's organ console, use:
-//   10 for board A
-//   11 for board B
-//   12 for board C
-//   13 for board D
+//   10 for the CH/GT piston board
+//   11 for the SW/SO piston board
+//   12 for the PED toe stud board
 #define MIDI_CHANNEL_NUMBER 10
 
 typedef struct {
